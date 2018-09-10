@@ -613,7 +613,63 @@ $("#a-29").on("click", function(){
 
 });
 
-/*//////////////////////////////////////////////THIRTY/*/
+/*//////////////////////////////////////////////THIRTY ONE/*/
+
+$(function() {
+   $(window).unload(function() {
+      var scrollPosition = $("div#a-31").scrollTop();
+      localStorage.setItem("scrollPosition", scrollPosition);
+   });
+   if(localStorage.scrollPosition) {
+      $("div#a-31").scrollTop(localStorage.getItem("scrollPosition"));
+   }
+});
+
+$(function() {
+   $(window).reload(function() {
+      var scrollPosition = $("div#a-31").scrollTop();
+      localStorage.setItem("scrollPosition", scrollPosition);
+   });
+   if(localStorage.scrollPosition) {
+      $("div#a-31").scrollTop(localStorage.getItem("scrollPosition"));
+   }
+});
+
+/*//////////////////////////////////////////////THIRTY TWO/*/
+
+$( "#a-32" ).one("mousemove", function( event ) {
+  $( this ).position({
+    my: "top+2",
+    of: event,
+    within: ".a",
+    collision: "fit"
+  });
+});
+
+/*//////////////////////////////////////////////THIRTY THREE/*/
+
+$("#a-33").on("mouseenter", function () {
+	$("body").animate ({
+		backgroundColor: "#000000"
+	});
+})
+
+$("#a-33").on("mouseleave", function () {
+	$("body").animate ({
+		backgroundColor: "#ffffff"
+	});
+})
+
+
+
+
+
+
+
+
+
+
+
 
 
 
