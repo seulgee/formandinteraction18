@@ -1,0 +1,3253 @@
+body {
+
+}
+
+.alphabet {
+	box-sizing: border-box;
+	transform: scale(2);
+	margin: 0px 50px 0px 700px;
+	display: block;
+	float: left;
+	overflow-y: hidden;
+	white-space: nowrap;
+}
+
+#top {
+	height: 366px;
+
+}
+
+#bottom {
+	height: 366px;
+
+}
+
+/*/////////////////////LETTER A/////**/
+
+#a {
+	height: 732px;
+	width: 45px;
+	margin-right: 3px;
+	display: inline-block;
+}
+
+#a #top #bar-1 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	background-color: black;
+	position: relative;
+	top: 311px;
+	margin-right: 3px;
+}
+
+#a #top #bar-2 {
+	width: 9px;
+	height: 45px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 292px;
+	margin-right: 3px;
+}
+
+#a #top #bar-2-2 {
+	width: 9px;
+	height: 10px;
+	background-color: black;
+	position: absolute;
+	top: 350px;
+	margin-right: 3px;
+	z-index: 5;
+	transform: translateX(12px);
+}
+
+#a #top #bar-3 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 282px;
+	margin-right: 3px;
+}
+
+#a #top #bar-3-2 {
+	width: 9px;
+	height: 10px;
+	background-color: black;
+	position: absolute;
+	top: 350px;
+	margin-right: 3px;
+	z-index: 5;
+	transform: translateX(24px);
+}
+
+#a #top #bar-4 {
+	width: 9px;
+	height: 45px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 292px;
+
+}
+
+#a #bottom #bar-1 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 0%;
+	margin-right: 3px;
+}
+
+#a #bottom #bar-2 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 23px;
+	margin-right: 3px;
+}
+
+#a #bottom #bar-3 {
+	width: 9px;
+	height: 45px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 23px;
+	margin-right: 3px;
+}
+
+#a #bottom #bar-4 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 23px;
+}
+
+#a #bottom #bar-4-2 {
+	width: 9px;
+	height: 10px;
+	background-color: #a6a6a6;
+	position: absolute;
+	top: 368px;
+	margin-right: 3px;
+	z-index: 5;
+	transform: translateX(36px);
+}
+
+/*/////////////////////LETTER B/////**/
+
+#b {
+	height: 732px;
+	width: 57px;
+	margin-right: 3px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#b #top #bar-1 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	background-color: black;
+	position: relative;
+	top: 311px;
+	margin-right: 3px;
+}
+
+#b #top #bar-2 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 262px;
+	margin-right: 3px;
+}
+
+#b #top #bar-3 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 282px;
+	margin-right: 3px;
+}
+
+#b #top #bar-4 {
+	width: 9px;
+	height: 40px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 297px;
+	margin-right: 3px;
+}
+
+#b #top #bar-5 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 286px;
+}
+
+#b #bottom #bar-1 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 0%;
+	margin-right: 3px;
+}
+
+#b #bottom #bar-2 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 23px;
+	margin-right: 3px;
+}
+
+#b #bottom #bar-3 {
+	width: 9px;
+	height: 23px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 25px;
+	margin-right: 3px;
+}
+
+#b #bottom #bar-3-2 {
+	width: 9px;
+	height: 32px;
+	background-color: #a6a6a6;
+	position: absolute;
+	top: 350px;
+	margin-right: 3px;
+	z-index: 5;
+	transform: translateX(24px);
+}
+
+#b #bottom #bar-4 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 23px;
+	margin-right: 3px;
+}
+
+#b #bottom #bar-4-2 {
+	width: 9px;
+	height: 15px;
+	background-color: #a6a6a6;
+	position: absolute;
+	top: 355px;
+	margin-right: 3px;
+	z-index: 5;
+	transform: translateX(36px);
+}
+
+#b #bottom #bar-5 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 20px;
+}
+
+/*/////////////////////LETTER C/////**/
+
+#c {
+	height: 732px;
+	width: 45px;
+	
+	margin-right: 3px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#c #top #bar-1 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	background-color: black;
+	position: relative;
+	top: 311px;
+	margin-right: 3px;
+}
+
+#c #top #bar-2 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 287px;
+	margin-right: 3px;
+}
+
+#c #top #bar-3 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 284px;
+	margin-right: 3px;
+}
+
+#c #top #bar-4 {
+	width: 9px;
+	height: 23px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 316px;
+}
+
+#c #bottom #bar-1 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 0%;
+	margin-right: 3px;
+}
+
+#c #bottom #bar-2 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 23px;
+	margin-right: 3px;
+}
+
+#c #bottom #bar-3 {
+	width: 9px;
+	height: 40px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 25px;
+	margin-right: 3px;
+}
+
+#c #bottom #bar-3-2 {
+	width: 9px;
+	height: 15px;
+	background-color: #a6a6a6;
+	position: absolute;
+	top: 355px;
+	margin-right: 3px;
+	z-index: 5;
+	transform: translateX(24px);
+}
+
+#c #bottom #bar-4 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 25px;
+}
+
+#c #bottom #bar-4-2 {
+	width: 9px;
+	height: 32px;
+	background-color: #a6a6a6;
+	position: absolute;
+	top: 348px;
+	margin-right: 3px;
+	z-index: 5;
+	transform: translateX(36px);
+}
+
+/*/////////////////////LETTER D/////**/
+
+#d {
+	height: 732px;
+	width: 57px;
+	
+	margin-right: 3px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#d #top #bar-1 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	background-color: black;
+	position: relative;
+	top: 311px;
+	margin-right: 3px;
+}
+
+#d #top #bar-2 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 287px;
+	margin-right: 3px;
+}
+
+#d #top #bar-3 {
+	width: 9px;
+	height: 40px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 299px;
+	margin-right: 3px;
+}
+
+#d #top #bar-4 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 284px;
+	margin-right: 3px;
+}
+
+#d #top #bar-5 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 262px;
+}
+
+#d #bottom #bar-1 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 0%;
+	margin-right: 3px;
+}
+
+#d #bottom #bar-2 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 20px;
+	margin-right: 3px;
+}
+
+#d #bottom #bar-3 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 23px;
+	margin-right: 3px;
+}
+
+#d #bottom #bar-3-2 {
+	width: 9px;
+	height: 15px;
+	background-color: #a6a6a6;
+	position: absolute;
+	top: 355px;
+	margin-right: 3px;
+	z-index: 5;
+	transform: translateX(24px);
+}
+
+#d #bottom #bar-4 {
+	width: 9px;
+	height: 23px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 25px;
+	margin-right: 3px;
+}
+
+#d #bottom #bar-4-2 {
+	width: 9px;
+	height: 32px;
+	background-color: #a6a6a6;
+	position: absolute;
+	top: 350px;
+	margin-right: 3px;
+	z-index: 5;
+	transform: translateX(36px);
+}
+
+#d #bottom #bar-5 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 23px;
+}
+
+/*/////////////////////LETTER E/////**/
+
+#e {
+	height: 732px;
+	width: 57px;
+	margin-right: 3px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#e #top #bar-1 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	background-color: black;
+	position: relative;
+	top: 311px;
+	margin-right: 3px;
+}
+
+#e #top #bar-2 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 285px;
+	margin-right: 3px;
+}
+
+#e #top #bar-3 {
+	width: 9px;
+	height: 45px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 293px;
+	margin-right: 3px;
+}
+
+#e #top #bar-3-2 {
+	width: 9px;
+	height: 10px;
+	background-color: black;
+	position: absolute;
+	top: 350px;
+	margin-right: 3px;
+	z-index: 5;
+	transform: translateX(24px);
+}
+
+#e #top #bar-4 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 283px;
+	margin-right: 3px;
+}
+
+#e #top #bar-4-2 {
+	width: 9px;
+	height: 10px;
+	background-color: black;
+	position: absolute;
+	top: 350px;
+	margin-right: 3px;
+	z-index: 5;
+	transform: translateX(36px);
+}
+
+#e #top #bar-5 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 285px;
+}
+
+#e #bottom #bar-1 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 0%;
+	margin-right: 3px;
+}
+
+#e #bottom #bar-2 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 22px;
+	margin-right: 3px;
+}
+
+#e #bottom #bar-3 {
+	width: 9px;
+	height: 45px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 23px;
+	margin-right: 3px;
+}
+
+#e #bottom #bar-3-2 {
+	width: 9px;
+	height: 10px;
+	background-color: #a6a6a6;
+	position: absolute;
+	top: 368px;
+	margin-right: 3px;
+	z-index: 5;
+	transform: translateX(24px);
+}
+
+#e #bottom #bar-4 {
+	width: 9px;
+	height: 35px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 23px;
+	margin-right: 3px;
+}
+
+#e #bottom #bar-4-2 {
+	width: 9px;
+	height: 10px;
+	background-color: #a6a6a6;
+	position: absolute;
+	top: 368px;
+	margin-right: 3px;
+	z-index: 5;
+	transform: translateX(36px);
+}
+
+#e #bottom #bar-5 {
+	width: 9px;
+	height: 45px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 22px;
+}
+
+#e #bottom #bar-5-2 {
+	width: 9px;
+	height: 10px;
+	background-color: #a6a6a6;
+	position: absolute;
+	top: 368px;
+	margin-right: 3px;
+	z-index: 5;
+	transform: translateX(48px);
+}
+
+/*/////////////////////LETTER F/////**/
+
+#f {
+	height: 732px;
+	width: 33px;
+	
+	margin-right: 3px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#f #top #bar-1 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	background-color: black;
+	position: relative;
+	top: 311px;
+	margin-right: 3px;
+}
+
+#f #top #bar-2 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 262px;
+	margin-right: 3px;
+}
+
+#f #top #bar-3 {
+	width: 9px;
+	height: 45px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 270px;
+}
+
+#f #top #bar-3-2 {
+	width: 9px;
+	height: 10px;
+	background-color: black;
+	position: absolute;
+	top: 327px;
+	margin-right: 3px;
+	z-index: 5;
+	transform: translateX(24px);
+}
+
+#f #bottom #bar-1 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 0%;
+	margin-right: 3px;
+}
+
+#f #bottom #bar-2 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 22px;
+	margin-right: 3px;
+}
+
+#f #bottom #bar-3 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: -16px;
+}
+
+/*/////////////////////LETTER G/////**/
+
+#g {
+	height: 732px;
+	width: 57px;
+	margin-right: 3px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#g #top #bar-1 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	background-color: black;
+	position: relative;
+	top: 311px;
+	margin-right: 3px;
+}
+
+#g #top #bar-2 {
+	width: 9px;
+	height: 45px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 298px;
+	margin-right: 3px;
+}
+
+#g #top #bar-3 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 285px;
+	margin-right: 3px;
+}
+
+#g #top #bar-3-2 {
+	width: 9px;
+	height: 18px;
+	background-color: black;
+	position: absolute;
+	top: 351px;
+	margin-right: 3px;
+	z-index: 5;
+	transform: translateX(24px);
+}
+
+#g #top #bar-4 {
+	width: 9px;
+	height: 27px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 310px;
+	margin-right: 3px;
+}
+
+#g #top #bar-4-2 {
+	width: 9px;
+	height: 18px;
+	background-color: black;
+	position: absolute;
+	top: 348px;
+	margin-right: 3px;
+	z-index: 5;
+	transform: translateX(36px);
+}
+
+#g #top #bar-5 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 282px;
+}
+
+#g #bottom #bar-1 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 0%;
+	margin-right: 3px;
+}
+
+#g #bottom #bar-2 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 37px;
+	margin-right: 3px;
+}
+
+#g #bottom #bar-2-2 {
+	width: 9px;
+	height: 10px;
+	background-color: #a6a6a6;
+	position: absolute;
+	top: 378px;
+	margin-right: 3px;
+	z-index: 5;
+	transform: translateX(12px);
+}
+
+#g #bottom #bar-3 {
+	width: 9px;
+	height: 27px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 39px;
+	margin-right: 3px;
+}
+
+#g #bottom #bar-3-2 {
+	width: 9px;
+	height: 10px;
+	background-color: #a6a6a6;
+	position: absolute;
+	top: 381px;
+	margin-right: 3px;
+	z-index: 5;
+	transform: translateX(24px);
+}
+
+#g #bottom #bar-4 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 39px;
+	margin-right: 3px;
+}
+
+#g #bottom #bar-4-2 {
+	width: 9px;
+	height: 10px;
+	background-color: #a6a6a6;
+	position: absolute;
+	top: 381px;
+	margin-right: 3px;
+	z-index: 5;
+	transform: translateX(36px);
+}
+
+#g #bottom #bar-5 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 37px;
+}
+
+/*/////////////////////LETTER H/////**/
+
+#h {
+	height: 732px;
+	width: 45px;
+	margin-right: 3px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#h #top #bar-1 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	background-color: black;
+	position: relative;
+	top: 311px;
+	margin-right: 3px;
+}
+
+#h #top #bar-2 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 260px;
+	margin-right: 3px;
+}
+
+#h #top #bar-3 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 282px;
+	margin-right: 3px;
+}
+
+#h #top #bar-4 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 282px;
+}
+
+#h #bottom #bar-1 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 0%;
+	margin-right: 3px;
+}
+
+#h #bottom #bar-2 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 26px;
+	margin-right: 3px;
+}
+
+#h #bottom #bar-3 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: -16px;
+	margin-right: 3px;
+}
+
+#h #bottom #bar-4 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 26px;
+}
+
+/*/////////////////////LETTER I/////**/
+
+#i {
+	height: 732px;
+	width: 21px;
+	margin-right: 3px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#i #top #bar-1 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	background-color: black;
+	position: relative;
+	top: 311px;
+	margin-right: 3px;
+}
+
+#i #top #bar-2 {
+	width: 9px;
+	height: 45px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 273px;
+}
+
+#i #top #bar-2-2 {
+	width: 9px;
+	height: 10px;
+	background-color: black;
+	position: absolute;
+	top: 330px;
+	margin-right: 3px;
+	z-index: 5;
+	transform: translateX(12px);
+}
+
+#i #bottom #bar-1 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 0%;
+	margin-right: 3px;
+}
+
+#i #bottom #bar-2 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 23px;
+}
+
+/*/////////////////////LETTER J/////**/
+
+#j {
+	height: 732px;
+	width: 33px;
+	margin-right: 3px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#j #top #bar-1 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	background-color: black;
+	position: relative;
+	top: 311px;
+	margin-right: 3px;
+}
+
+#j #top #bar-2 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 340px;
+	margin-right: 3px;
+}
+
+#j #top #bar-3 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 263px;
+}
+
+#j #top #bar-3-2 {
+	width: 9px;
+	height: 10px;
+	background-color: black;
+	position: absolute;
+	top: 330px;
+	margin-right: 3px;
+	z-index: 5;
+	transform: translateX(24px);
+}
+
+#j #bottom #bar-1 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 0%;
+	margin-right: 3px;
+}
+
+#j #bottom #bar-2 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 39px;
+	margin-right: 3px;
+}
+
+#j #bottom #bar-3 {
+	width: 9px;
+	height: 45px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 38px;
+}
+
+/*/////////////////////LETTER K/////**/
+
+#k {
+	height: 732px;
+	width: 57px;
+	margin-right: 3px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#k #top #bar-1 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	background-color: black;
+	position: relative;
+	top: 311px;
+	margin-right: 3px;
+}
+
+#k #top #bar-2 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 260px;
+	margin-right: 3px;
+}
+
+#k #top #bar-3 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 292px;
+	margin-right: 3px;
+}
+
+#k #top #bar-4 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 283px;
+	margin-right: 3px;
+}
+
+#k #top #bar-5 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 325px;
+}
+
+#k #bottom #bar-1 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 0%;
+	margin-right: 3px;
+}
+
+#k #bottom #bar-2 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 23px;
+	margin-right: 3px;
+}
+
+#k #bottom #bar-3 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 11px;
+	margin-right: 3px;
+}
+
+#k #bottom #bar-4 {
+	width: 9px;
+	height: 46px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 22px;
+	margin-right: 3px;
+}
+
+#k #bottom #bar-4-2 {
+	width: 9px;
+	height: 9px;
+	background-color: #a6a6a6;
+	position: absolute;
+	top: 358px;
+	margin-right: 3px;
+	z-index: 5;
+	transform: translateX(36px);
+}
+
+#k #bottom #bar-5 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 23px;
+}
+
+/*/////////////////////LETTER L/////**/
+
+#l {
+	height: 732px;
+	width: 33px;
+	margin-right: 3px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#l #top #bar-1 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	background-color: black;
+	position: relative;
+	top: 311px;
+	margin-right: 3px;
+}
+
+#l #top #bar-2 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 262px;
+	margin-right: 3px;
+}
+
+#l #top #bar-3 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 327px;
+}
+
+#l #bottom #bar-1 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 0%;
+	margin-right: 3px;
+}
+
+#l #bottom #bar-2 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 23px;
+	margin-right: 3px;
+}
+
+#l #bottom #bar-3 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 24px;
+}
+
+/*/////////////////////LETTER M/////**/
+
+#m {
+	height: 732px;
+	width: 69px;
+	margin-right: 3px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#m #top #bar-1 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	background-color: black;
+	position: relative;
+	top: 311px;
+	margin-right: 3px;
+}
+
+#m #top #bar-2 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 283px;
+	margin-right: 3px;
+}
+
+#m #top #bar-3 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 282px;
+	margin-right: 3px;
+}
+
+#m #top #bar-4 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 285px;
+	margin-right: 3px;
+}
+
+#m #top #bar-5 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 282px;
+	margin-right: 3px;
+}
+
+#m #top #bar-6 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 283px;
+}
+
+#m #bottom #bar-1 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 0%;
+	margin-right: 3px;
+}
+
+#m #bottom #bar-2 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 23px;
+	margin-right: 3px;
+}
+
+#m #bottom #bar-3 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: -16px;
+	margin-right: 3px;
+}
+
+#m #bottom #bar-4 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 22px;
+	margin-right: 3px;
+}
+
+#m #bottom #bar-5 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: -16px;
+	margin-right: 3px;
+}
+
+#m #bottom #bar-6 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 22px;
+}
+
+/*/////////////////////LETTER N/////**/
+
+#n {
+	height: 732px;
+	width: 45px;
+	margin-right: 3px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#n #top #bar-1 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	background-color: black;
+	position: relative;
+	top: 311px;
+	margin-right: 3px;
+}
+
+#n #top #bar-2 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 285px;
+	margin-right: 3px;
+}
+
+#n #top #bar-3 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 283px;
+	margin-right: 3px;
+}
+
+#n #top #bar-4 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 284px;
+}
+
+#n #bottom #bar-1 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 0%;
+	margin-right: 3px;
+}
+
+#n #bottom #bar-2 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 23px;
+	margin-right: 3px;
+}
+
+#n #bottom #bar-3 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: -16px;
+	margin-right: 3px;
+}
+
+#n #bottom #bar-4 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 24px;
+}
+
+/*/////////////////////LETTER O/////**/
+
+#o {
+	height: 732px;
+	width: 57px;
+	margin-right: 3px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#o #top #bar-1 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	background-color: black;
+	position: relative;
+	top: 311px;
+	margin-right: 3px;
+}
+
+#o #top #bar-2 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 290px;
+	margin-right: 3px;
+}
+
+#o #top #bar-3 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 285px;
+	margin-right: 3px;
+}
+
+#o #top #bar-4 {
+	width: 9px;
+	height: 27px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 311px;
+	margin-right: 3px;
+}
+
+#o #top #bar-4-2 {
+	width: 9px;
+	height: 28px;
+	background-color: black;
+	position: absolute;
+	top: 350px;
+	margin-right: 3px;
+	z-index: 5;
+	transform: translateX(36px);
+}
+
+#o #top #bar-5 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 290px;
+}
+
+#o #bottom #bar-1 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 0%;
+	margin-right: 3px;
+}
+
+#o #bottom #bar-2 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 16px;
+	margin-right: 3px;
+}
+
+#o #bottom #bar-3 {
+	width: 9px;
+	height: 35px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 21px;
+	margin-right: 3px;
+}
+
+#o #bottom #bar-3-2 {
+	width: 9px;
+	height: 20px;
+	background-color: #a6a6a6;
+	position: absolute;
+	top: 353px;
+	margin-right: 3px;
+	z-index: 5;
+	transform: translateX(24px);
+}
+
+#o #bottom #bar-4 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 23px;
+	margin-right: 3px;
+}
+
+#o #bottom #bar-5 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 16px;
+}
+
+/*/////////////////////LETTER P/////**/
+
+#p {
+	height: 732px;
+	width: 57px;
+	margin-right: 3px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#p #top #bar-1 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	background-color: black;
+	position: relative;
+	top: 311px;
+	margin-right: 3px;
+}
+
+#p #top #bar-2 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 284px;
+	margin-right: 3px;
+}
+
+#p #top #bar-3 {
+	width: 9px;
+	height: 25px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 313px;
+	margin-right: 3px;
+}
+
+#p #top #bar-4 {
+	width: 9px;
+	height: 46px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 293px;
+	margin-right: 3px;
+}
+
+#p #top #bar-5 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 289px;
+}
+
+#p #bottom #bar-1 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 0%;
+	margin-right: 3px;
+}
+
+#p #bottom #bar-2 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 40px;
+	margin-right: 3px;
+}
+
+#p #bottom #bar-3 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 24px;
+	margin-right: 3px;
+}
+
+#p #bottom #bar-3-2 {
+	width: 9px;
+	height: 30px;
+	background-color: #a6a6a6;
+	position: absolute;
+	top: 350px;
+	margin-right: 3px;
+	z-index: 5;
+	transform: translateX(24px);
+}
+
+#p #bottom #bar-4 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 24px;
+	margin-right: 3px;
+}
+
+#p #bottom #bar-4-2 {
+	width: 9px;
+	height: 9px;
+	background-color: #a6a6a6;
+	position: absolute;
+	top: 362px;
+	margin-right: 3px;
+	z-index: 5;
+	transform: translateX(36px);
+}
+
+#p #bottom #bar-5 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 19px;
+}
+
+/*/////////////////////LETTER Q/////**/
+
+#q {
+	height: 732px;
+	width: 57px;
+	margin-right: 3px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#q #top #bar-1 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	background-color: black;
+	position: relative;
+	top: 311px;
+	margin-right: 3px;
+}
+
+#q #top #bar-2 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 286px;
+	margin-right: 3px;
+}
+
+#q #top #bar-3 {
+	width: 9px;
+	height: 25px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 313px;
+	margin-right: 3px;
+}
+
+#q #top #bar-3-2 {
+	width: 9px;
+	height: 30px;
+	background-color: black;
+	position: absolute;
+	top: 350px;
+	margin-right: 3px;
+	z-index: 5;
+	transform: translateX(24px);
+}
+
+#q #top #bar-4 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 283px;
+	margin-right: 3px;
+}
+
+#q #top #bar-5 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 285px;
+}
+
+#q #bottom #bar-1 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 0%;
+	margin-right: 3px;
+}
+
+#q #bottom #bar-2 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 22px;
+	margin-right: 3px;
+}
+
+#q #bottom #bar-3 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 24px;
+	margin-right: 3px;
+}
+
+#q #bottom #bar-4 {
+	width: 9px;
+	height: 25px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 24px;
+	margin-right: 3px;
+}
+
+#q #bottom #bar-4-2 {
+	width: 9px;
+	height: 30px;
+	background-color: #a6a6a6;
+	position: absolute;
+	top: 348px;
+	margin-right: 3px;
+	z-index: 5;
+	transform: translateX(36px);
+}
+
+#q #bottom #bar-5 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 40px;
+}
+
+/*/////////////////////LETTER R/////**/
+
+#r {
+	height: 732px;
+	width: 45px;
+	margin-right: 3px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#r #top #bar-1 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	background-color: black;
+	position: relative;
+	top: 311px;
+	margin-right: 3px;
+}
+
+#r #top #bar-2 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 284px;
+	margin-right: 3px;
+}
+
+#r #top #bar-3 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 283px;
+	margin-right: 3px;
+}
+
+#r #top #bar-4 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 283px;
+}
+
+#r #bottom #bar-1 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 0%;
+	margin-right: 3px;
+}
+
+#r #bottom #bar-2 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 23px;
+	margin-right: 3px;
+}
+
+#r #bottom #bar-3 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: -16px;
+	margin-right: 3px;
+}
+
+#r #bottom #bar-4 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: -16px;
+}
+
+/*/////////////////////LETTER S/////**/
+
+#s {
+	height: 732px;
+	width: 45px;
+	margin-right: 3px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#s #top #bar-1 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	background-color: black;
+	position: relative;
+	top: 311px;
+	margin-right: 3px;
+}
+
+#s #top #bar-2 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 284px;
+	margin-right: 3px;
+}
+
+#s #top #bar-3 {
+	width: 9px;
+	height: 50px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 288px;
+	margin-right: 3px;
+}
+
+#s #top #bar-3-2 {
+	width: 9px;
+	height: 5px;
+	background-color: black;
+	position: absolute;
+	top: 352px;
+	margin-right: 3px;
+	z-index: 5;
+	transform: translateX(24px);
+}
+
+#s #top #bar-4 {
+	width: 9px;
+	height: 45px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 294px;
+}
+
+#s #top #bar-4-2 {
+	width: 9px;
+	height: 10px;
+	background-color: black;
+	position: absolute;
+	top: 353px;
+	margin-right: 3px;
+	z-index: 5;
+	transform: translateX(36px);
+}
+
+#s #bottom #bar-1 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 0%;
+	margin-right: 3px;
+}
+
+#s #bottom #bar-2 {
+	width: 9px;
+	height: 45px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 23px;
+	margin-right: 3px;
+}
+
+#s #bottom #bar-2-2 {
+	width: 9px;
+	height: 10px;
+	background-color: #a6a6a6;
+	position: absolute;
+	top: 368px;
+	margin-right: 3px;
+	z-index: 5;
+	transform: translateX(12px);
+}
+
+#s #bottom #bar-3 {
+	width: 9px;
+	height: 50px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 23px;
+	margin-right: 3px;
+}
+
+#s #bottom #bar-3-2 {
+	width: 9px;
+	height: 5px;
+	background-color: #a6a6a6;
+	position: absolute;
+	top: 375px;
+	margin-right: 3px;
+	z-index: 5;
+	transform: translateX(24px);
+}
+
+#s #bottom #bar-4 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 22px;
+}
+
+/*/////////////////////LETTER T/////**/
+
+#t {
+	height: 732px;
+	width: 45px;
+	margin-right: 3px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#t #top #bar-1 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	background-color: black;
+	position: relative;
+	top: 311px;
+	margin-right: 3px;
+}
+
+#t #top #bar-2 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 269px;
+	margin-right: 3px;
+}
+
+#t #top #bar-3 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 284px;
+	margin-right: 3px;
+}
+
+#t #top #bar-4 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 325px;
+}
+
+#t #bottom #bar-1 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 0%;
+	margin-right: 3px;
+}
+
+#t #bottom #bar-2 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 24px;
+	margin-right: 3px;
+}
+
+#t #bottom #bar-3 {
+	width: 9px;
+	height: 25px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 24px;
+	margin-right: 3px;
+}
+
+#t #bottom #bar-3-2 {
+	width: 9px;
+	height: 30px;
+	background-color: #a6a6a6;
+	position: absolute;
+	top: 348px;
+	margin-right: 3px;
+	z-index: 5;
+	transform: translateX(24px);
+}
+
+#t #bottom #bar-4 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 23px;
+}
+
+/*/////////////////////LETTER U/////**/
+
+#u {
+	height: 732px;
+	width: 57px;
+	margin-right: 3px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#u #top #bar-1 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	background-color: black;
+	position: relative;
+	top: 311px;
+	margin-right: 3px;
+}
+
+#u #top #bar-2 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 284px;
+	margin-right: 3px;
+}
+
+#u #top #bar-3 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 315px;
+	margin-right: 3px;
+}
+
+#u #top #bar-4 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 322px;
+	margin-right: 3px;
+}
+
+#u #top #bar-5 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 283px;
+}
+
+#u #bottom #bar-1 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 0%;
+	margin-right: 3px;
+}
+
+#u #bottom #bar-2 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 20px;
+	margin-right: 3px;
+}
+
+#u #bottom #bar-3 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 23px;
+	margin-right: 3px;
+}
+
+#u #bottom #bar-4 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 22px;
+	margin-right: 3px;
+}
+
+#u #bottom #bar-5 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 22px;
+}
+
+/*/////////////////////LETTER V/////**/
+
+#v {
+	height: 732px;
+	width: 57px;
+	margin-right: 3px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#v #top #bar-1 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	background-color: black;
+	position: relative;
+	top: 311px;
+	margin-right: 3px;
+}
+
+#v #top #bar-2 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 284px;
+	margin-right: 3px;
+}
+
+#v #top #bar-3 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 309px;
+	margin-right: 3px;
+}
+
+#v #top #bar-4 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 297px;
+	margin-right: 3px;
+}
+
+#v #top #bar-5 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 284px;
+}
+
+#v #bottom #bar-1 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 0%;
+	margin-right: 3px;
+}
+
+#v #bottom #bar-2 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 9px;
+	margin-right: 3px;
+}
+
+#v #bottom #bar-3 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 23px;
+	margin-right: 3px;
+}
+
+#v #bottom #bar-4 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 16px;
+	margin-right: 3px;
+}
+
+#v #bottom #bar-5 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: -6px;
+}
+
+/*/////////////////////LETTER W/////**/
+
+#w {
+	height: 732px;
+	width: 81px;
+	margin-right: 3px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#w #top #bar-1 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	background-color: black;
+	position: relative;
+	top: 311px;
+	margin-right: 3px;
+}
+
+#w #top #bar-2 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 284px;
+	margin-right: 3px;
+}
+
+#w #top #bar-3 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 311px;
+	margin-right: 3px;
+}
+
+#w #top #bar-4 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 284px;
+	margin-right: 3px;
+}
+
+#w #top #bar-5 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 302px;
+	margin-right: 3px;
+}
+
+#w #top #bar-6 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 289px;
+	margin-right: 3px;
+}
+
+#w #top #bar-7 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 284px;
+}
+
+#w #bottom #bar-1 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 0%;
+	margin-right: 3px;
+}
+
+#w #bottom #bar-2 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 12px;
+	margin-right: 3px;
+}
+
+#w #bottom #bar-3 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 23px;
+	margin-right: 3px;
+}
+
+#w #bottom #bar-4 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 9px;
+	margin-right: 3px;
+}
+
+#w #bottom #bar-5 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 23px;
+	margin-right: 3px;
+}
+
+#w #bottom #bar-6 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 12px;
+	margin-right: 3px;
+}
+
+#w #bottom #bar-7 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: -5px;
+}
+
+/*/////////////////////LETTER X/////**/
+
+#x {
+	height: 732px;
+	width: 45px;
+	margin-right: 3px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#x #top #bar-1 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	background-color: black;
+	position: relative;
+	top: 311px;
+	margin-right: 3px;
+}
+
+#x #top #bar-2 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 284px;
+	margin-right: 3px;
+}
+
+#x #top #bar-3 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 292px;
+	margin-right: 3px;
+}
+
+#x #top #bar-4 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 284px;
+}
+
+#x #top #bar-4-2 {
+	width: 9px;
+	height: 15px;
+	background-color: black;
+	position: absolute;
+	top: 355px;
+	margin-right: 3px;
+	z-index: 5;
+	transform: translateX(35px);
+}
+
+#x #bottom #bar-1 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 0%;
+	margin-right: 3px;
+}
+
+#x #bottom #bar-2 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 22px;
+	margin-right: 3px;
+}
+
+#x #bottom #bar-2-2 {
+	width: 9px;
+	height: 15px;
+	background-color: #a6a6a6;
+	position: absolute;
+	top: 355px;
+	margin-right: 3px;
+	z-index: 5;
+	transform: translateX(12px);
+}
+
+#x #bottom #bar-3 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 12px;
+	margin-right: 3px;
+}
+
+#x #bottom #bar-4 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 23px;
+}
+
+/*/////////////////////LETTER Y/////**/
+
+#y {
+	height: 732px;
+	width: 57px;
+	margin-right: 3px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#y #top #bar-1 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	background-color: black;
+	position: relative;
+	top: 311px;
+	margin-right: 3px;
+}
+
+#y #top #bar-2 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 284px;
+	margin-right: 3px;
+}
+
+#y #top #bar-3 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 311px;
+	margin-right: 3px;
+}
+
+#y #top #bar-4 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 293px;
+	margin-right: 3px;
+}
+
+#y #top #bar-5 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 284px;
+}
+
+#y #bottom #bar-1 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 0%;
+	margin-right: 3px;
+}
+
+#y #bottom #bar-2 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 45px;
+	margin-right: 3px;
+}
+
+#y #bottom #bar-2-2 {
+	width: 9px;
+	height: 26px;
+	background-color: black;
+	position: absolute;
+	top: 372px;
+	margin-right: 3px;
+	z-index: 5;
+	transform: translateX(12px);
+}
+
+#y #bottom #bar-3 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 39px;
+	margin-right: 3px;
+}
+
+#y #bottom #bar-4 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 21px;
+	margin-right: 3px;
+}
+
+#y #bottom #bar-5 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: -3px;
+}
+
+/*/////////////////////LETTER Z/////**/
+
+#z {
+	height: 732px;
+	width: 57px;
+	margin-right: 3px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#z #top #bar-1 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	background-color: black;
+	position: relative;
+	top: 311px;
+	margin-right: 3px;
+}
+
+#z #top #bar-2 {
+	width: 9px;
+	height: 37px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 302px;
+	margin-right: 3px;
+}
+
+#z #top #bar-2-2 {
+	width: 9px;
+	height: 18px;
+	background-color: black;
+	position: absolute;
+	top: 347px;
+	margin-right: 3px;
+	z-index: 5;
+	transform: translateX(12px);
+}
+
+#z #top #bar-3 {
+	width: 9px;
+	height: 46px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 293px;
+	margin-right: 3px;
+}
+
+#z #top #bar-3-2 {
+	width: 9px;
+	height: 9px;
+	background-color: black;
+	position: absolute;
+	top: 347px;
+	margin-right: 3px;
+	z-index: 5;
+	transform: translateX(24px);
+}
+
+#z #top #bar-4 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 284px;
+	margin-right: 3px;
+}
+
+#z #top #bar-5 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: black;
+	position: relative;
+	top: 311px;
+}
+
+#z #bottom #bar-1 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 0%;
+	margin-right: 3px;
+}
+
+#z #bottom #bar-2 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 22px;
+	margin-right: 3px;
+}
+
+#z #bottom #bar-3 {
+	width: 9px;
+	height: 46px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 22px;
+	margin-right: 3px;
+}
+
+#z #bottom #bar-3-2 {
+	width: 9px;
+	height: 9px;
+	background-color: #a6a6a6;
+	position: absolute;
+	top: 372px;
+	margin-right: 3px;
+	z-index: 5;
+	transform: translateX(23px);
+}
+
+#z #bottom #bar-4 {
+	width: 9px;
+	height: 37px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 22px;
+	margin-right: 3px;
+}
+
+#z #bottom #bar-4-2 {
+	width: 9px;
+	height: 18px;
+	background-color: #a6a6a6;
+	position: absolute;
+	top: 363px;
+	margin-right: 3px;
+	z-index: 5;
+	transform: translateX(36px);
+}
+
+#z #bottom #bar-5 {
+	width: 9px;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #a6a6a6;
+	position: relative;
+	top: 0%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

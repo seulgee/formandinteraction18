@@ -1,0 +1,92 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 15pt;
+	line-height: 25pt;
+	text-align: center;
+	margin: auto;
+}
+
+h2 {
+	font-family: 'Space Mono', monospace;
+}
+
+.header {
+	margin-top: 70px;
+}
+
+.weeks {
+	margin-top: 60px;
+}
+
+ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+ul a:link {
+	text-decoration: none;
+	border-bottom: 1px solid;
+	margin-bottom: -1px;
+	color: #8c8c8c;
+	font-weight: ;
+}
+
+ul li a:hover {
+	color: black;
+}
+
+ul a:visited {
+	list-style: none;
+	text-decoration: none;
+	color: #8c8c8c;
+}
+
+ul .bullet {
+	padding-left: 20px;
+}
+
+ul .bullet p {
+	font-size: 12pt;
+	line-height: 17.5pt;
+	margin-top: 10px;
+}
+
+.text {
+	margin: auto;
+	margin-top: 60px;
+	text-align: left;
+	width: 50%;
+	display: block;
+	color: #8c8c8c;
+}
+
+.category {
+	font-weight: 400;
+	font-style: italic;
+	padding-bottom: 20px;
+	color: black;
+}
+
+.main {
+	padding-top: 20px;
+}
+
+.back {
+	margin: auto;
+	z-index: 5;
+	position: relative;
+	top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
