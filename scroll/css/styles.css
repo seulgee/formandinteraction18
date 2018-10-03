@@ -354,7 +354,7 @@ a:hover {
     overflow: visible;
 }
 
-.text-19 {
+.text-34 {
     width: 100%;
     position: fixed;
     top: 40%;
@@ -367,4 +367,11 @@ a:hover {
     font-family: 'Open Sans', sans-serif;
     font-size: 300px;
     font-weight: 400;
+    z-index: 5;
+}
+
+.p34 #b {
+    position: fixed;
+    font-size: 310px;
+    z-index: 1;
 }
