@@ -353,3 +353,18 @@ a:hover {
 	height:100%;
     overflow: visible;
 }
+
+.text-19 {
+    width: 100%;
+    position: fixed;
+    top: 40%;
+    margin: auto;
+    text-align: center;
+}
+
+.p34 {
+    color: rgb(0, 0, 255);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 300px;
+    font-weight: 400;
+}
