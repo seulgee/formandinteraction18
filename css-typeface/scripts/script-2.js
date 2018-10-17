@@ -799,7 +799,7 @@ letters.mouseenter(function(){
 		counters.removeClass('op2 op');
 	} else {
 		animated.addClass('op');
-	}
+	};
 
 });
 

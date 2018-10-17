@@ -1,15 +1,15 @@
 $(document).ready(function(){
 
-var letters = $("#a, #b, #c, #d, #e, #f, #g, #h, #i, #j, #k, #l, #m, #n, #o, #p, #q, #r, #s, #t, #u, #v, #w, #x, #y, #z");
-
+var skyline = $("#s, #k, #y, #l, #i, #n, #e");
 var top = $(".top");
 var bottom = $(".bottom");
 var oddBar = $(".bar:odd");
 var evenBar = $(".bar:even");
 var counters = $(".bar-2");
+var counters2 = skyline.find(counters);
 
-$("body").mouseenter(function () {
-
+$(".everything").mouseenter(function () {
+	$(".bar").addClass("op");
     var topEven = top.find(evenBar)
     var botEven = bottom.find(evenBar)
     var topOdd = top.find(oddBar)
@@ -37,13 +37,6 @@ $("body").mouseenter(function () {
 	});
 });
 
-/*
-$("#backLink").on("click", function(e){
-	e.preventDefault();
-	$("body").fadeOut(150);
-});
-*/
-
 var link = $(".caption")
 link.on("click", function(e){
 	e.preventDefault();
@@ -57,7 +50,7 @@ link.mouseover(function (){
 	$(this).css("cursor", "pointer")
 })
 
-counters.on("click", function(){
+counters2.on("click", function(){
 	$("#s-t-bar-1").css("top", "311px");
 	$("#s-t-bar-2").css("top", "284px");
 	$("#s-t-bar-3").css("top", "283px");
