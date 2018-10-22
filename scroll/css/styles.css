@@ -1,377 +1,113 @@
 html, body{
 	width: 100%;
-	height:100%;
-}
-
-.nav {
-    margin: auto;
-    display: block;
-    font-size: 30px;
-    text-align: center;
-    position: relative;
-}
-
-.left {
-    padding-right: 10px;
-}
-
-.right {
-    padding-left: 10px;
-}
-
-a:link {
-    color: #8c8c8c;
-}
-
-a:visited {
-    color: #8c8c8c;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #0000ff;
-}
-
-.skrollr-container{
-	width: 100%;
-	height:100%;
-    overflow:hidden;
-}
-
-.bar {
-    position:fixed;
-	width:25%;
-	height:20px;
-    top:40%;
-    left: 37.5%;
-    background-color: cyan;
-    border-radius: 15px;
-}
-
-.square {
-    position: fixed;
-    width: 100px;
-    height: 100px;
-    top: 40%;
-    left: 50%;
-    transform: translateX(-50px);
-    background-color: #0000ff;
-}
-
-.skrollr-container-4{
-	width: 100%;
-	height:100%;
-    overflow:hidden;
-    padding-top: 1500px;
-}
-
-.roll-1 {
-    width: 100px;
-    margin: auto;
-    margin-top: 100px;
-    padding: 10px 0;
-    background-color: black;
-    color: red;
-    position: relative;
-    text-align: center;
+    height:100%;
+    margin: 0;
     font-family: 'Open Sans', sans-serif;
-    transform: rotateX(-90deg);
-    transform-style: preserve-3d;
-    backface-visibility: hidden;
+    font-size: 1.5em;
 }
 
-.roll-2 {
-    width: 100px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform-origin: center top;
-    transform: rotateX(-90deg);
+.skrollr-container-36{
+    padding-top: 10px;
+	width: 100%;
+	height:100%;
+    overflow:hidden;
+    position: fixed;
+    display: inline-block;
+    vertical-align: top;
+    transform: translateZ(0) scale(2);
+    -webkit-transform: translateZ(0) scale(2);
+    -moz-transform: translateZ(0) scale(2);
+    -ms-transform: translateZ(0) scale(2);
+    /*
+    -webkit-transform: translateZ(0) scale(3) translateX(50%);
+    -moz-transform: translateZ(0) scale(3) translateX(50%);
+    -ms-transform: translateZ(0) scale(3) translateX(50%);
+    -webkit-font-smoothing: subpixel-antialiased;
+    */
 }
 
-.roll-2 span {
-    padding: 10px 0;
-    display: block;
-    border: 1px solid black;
-    background-color: #ffffff;
-    color: red;
-    transform: rotateX(-180deg);
+.container {
+    width: 20%;
+    height: 100vh;
+    position: fixed;
+}
+
+#one {
+    left: 0%;
+}
+
+#two {
+    left: 20%;
+}
+
+#three {
+    left: 40%;
+}
+
+#four {
+    left: 60%;
+}
+
+#five {
+    left: 80%;
 }
 
 #perspective {
     perspective: 800px;
+    -webkit-perspective: 800px;
+    -moz-perspective: 800px;
+    -ms-perspective: 800px;
 }
 
-.skrollr-background {
+.wrap {
+    display: inline-block;
+    vertical-align: top;
+    margin: auto;
+}
+
+.col {
+    margin: auto;
     width: 100%;
-    height: 100vh;
+    display: inline-block;
+    vertical-align: top;
     position: fixed;
-    background-color: antiquewhite;
-    overflow: hidden;
-    display: flex;
-}
-
-.square-5 {
-    width: 100px;
-    height: 100px;
-    background-color: brown;
-    position: fixed;
-    top: 30%;
-    left: 47%;
-}
-
-.skrollr-container-6{
-	width: 100%;
-	height:100%;
-    overflow:hidden;
-    position: fixed;
-}
-
-.square-6 {
-    width: 100px;
-    height: 100px;
-    background-color: #0000ff;
-    position: relative;
-    top: 30px;
-    left: 47%;
-}
-
-.skrollr-container-7{
-	width: 100%;
-	height:100%;
-    overflow: hidden;
-    position: fixed;
-}
-
-.square-8 {
-    width: 100px;
-    height: 100px;
-    background-color: #0000ff;
-    position: relative;
-    top: 47%;
-    left: 47%;
-}
-
-.face1 {
-    padding-top: 200px;
-    position: fixed;
-    top: 10%;
-}
-
-.skrollr-container-10{
-	width: 100%;
-	height:100%;
-    overflow: hidden;
-    position: fixed;
-}
-
-.text-10 {
-    position: fixed;
-    top: 40%;
-    left: 60%;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 30px;
-}
-
-.text-10 p {
+    height: 20px;
+    line-height: 100%;
     text-align: center;
-}
-
-.nav-10 {
-    margin: auto;
-    text-align: center;
-    display: block;
-    font-size: 30px;
-    text-align: center;
-    position: fixed;
-    top: 95%;
-    left: 50%;
-    transform: translateX(-36.25px);
-    z-index: 50;
-}
-
-.nav-10 span {
-    text-align: center;
-    margin: auto;
-}
-
-.circle-11 {
-    width: 200px;
-    height: 200px;
-    border-radius: 100px;
-    background-color: rgb(0, 255, 153);
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-100px, -100px);
-}
-
-.skrollr-container-12{
-	width: 100%;
-	height:100%;
-    overflow: visible;
-}
-
-.square-12 {
-    position: fixed;
-}
-
-.text-13 {
-    position: fixed;
-    top: 40%;
-    left: 30%;
-}
-
-.p13 {
-    color: black;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 100px;
-}
-
-.box {
-    width: 150px;
-    height: 30px;
-    position: fixed;
-    top: 400px;
-    left: 50%;
-    transform: translateX(-75px);
-    background-color: peru;
-    display: block;
-}
-
-.corgi {
-    position: fixed;
-    top: 80%;
-    left: 50%;
-    transform: translateX(-200px);
-}
-
-.text-16 {
-    position: fixed;
-    top: 40%;
-    margin: auto;
-    text-align: center;
-    padding: 100px 50px 50px 50px;
-}
-
-.p16 {
-    color: rgb(153, 102, 255);
-    font-family: 'Open Sans', sans-serif;
-    font-size: 50px;
-}
-
-.text-17 {
-    width: 100%;
-    position: fixed;
-    top: 40%;
-    margin: auto;
-    text-align: center;
-}
-
-.p17 {
-    color: rgb(0, 0, 0);
-    font-family: 'Open Sans', sans-serif;
-    font-size: 50px;
-    font-weight: 300;
-    text-decoration: none;
-}
-
-.text-19 {
-    width: 100%;
-    position: fixed;
-    top: 40%;
-    margin: auto;
-    text-align: center;
-}
-
-.p19 {
-    color: rgb(0, 0, 255);
-    font-family: 'Open Sans', sans-serif;
-    font-size: 50px;
-    font-weight: 300;
-}
-
-.square-20 {
-    height: 200px;
-    width: 500px;
-    background-color: rgb(255, 255, 0);
-    position: fixed;
+    transform: rotateX(-90deg);
     transform-style: preserve-3d;
+    backface-visibility: hidden;
+    -webkit-transform-origin: center center;
+    -moz-transform-origin: center center;
+    -ms-transform-origin: center center;
+    transform-origin: center center;
 }
 
-.square-21 {
-    height: 15px;
-    width: 500px;
-    background-color: rgb(255, 255, 0);
+.sub {
     position: fixed;
-    top: 80%;
-    left: 70%;
-}
-
-
-.square-22a {
-    height: 15px;
-    width: 200px;
-    background-color: rgb(255, 0, 0);
-    position: fixed;
-    top: 80%;
-}
-
-.square-22b {
-    height: 30px;
-    width: 30px;
-    background-color: rgb(255, 255, 0);
-    position: fixed;
-    left: 30%;
-}
-
-.square-24a, .square-24b, .square-24c {
-    position: fixed;
-    width: 600px;
-    height: 1000px;
-    opacity: .7;
-    transform: scale(5);
-    transform-style: preserve-3d;
-} 
-
-.pacman {
-    position: fixed;
-    width: 0px;
-    height: 0px;
-    border-right: 60px solid transparent;
-    border-top: 60px solid red;
-    border-left: 60px solid red;
-    border-bottom: 60px solid red;
-    border-top-left-radius: 60px;
-    border-top-right-radius: 60px;
-    border-bottom-left-radius: 60px;
-    border-bottom-right-radius: 60px;
-}
-
-.skrollr-container-33{
-	width: 100%;
-	height:100%;
-    overflow: visible;
-}
-
-.text-34 {
     width: 100%;
-    position: fixed;
-    top: 40%;
-    margin: auto;
-    text-align: center;
+    top: 0;
+    left: 0;
+    transform: rotateX(-90deg);
+    -webkit-transform-origin: center top;
+    -moz-transform-origin: center top;
+    -ms-transform-origin: center top;
+    transform-origin: center top;
 }
 
-.p34 {
-    color: rgb(0, 0, 255);
-    font-family: 'Open Sans', sans-serif;
-    font-size: 300px;
-    font-weight: 400;
-    z-index: 5;
+.col span {
+    background-color: #000000;
+    color: red;
+    width: 100%;
+    display: block;
+    padding: 5px 0 5px 0;
 }
 
-.p34 #b {
-    position: fixed;
-    font-size: 310px;
-    z-index: 1;
+#box-1-b span, #box-2-b span {
+    padding: 5px 0 5px 0;
+    line-height: 100%;
+    display: block;
+    background-color: rgb(0, 102, 255);
+    color: rgb(255, 255, 255);
+    transform: rotateX(180deg);
 }
