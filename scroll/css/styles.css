@@ -22,8 +22,8 @@ html, body{
     -webkit-transform: translateZ(0) scale(3) translateX(50%);
     -moz-transform: translateZ(0) scale(3) translateX(50%);
     -ms-transform: translateZ(0) scale(3) translateX(50%);
-    -webkit-font-smoothing: subpixel-antialiased;
     */
+    -webkit-font-smoothing: subpixel-antialiased;
 }
 
 .container {
@@ -74,13 +74,23 @@ html, body{
     height: 20px;
     line-height: 100%;
     text-align: center;
+
     transform: rotateX(-90deg);
+    
     transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    
     backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    
+    transform-origin: center center;
     -webkit-transform-origin: center center;
     -moz-transform-origin: center center;
     -ms-transform-origin: center center;
-    transform-origin: center center;
 }
 
 .sub {
@@ -89,10 +99,10 @@ html, body{
     top: 0;
     left: 0;
     transform: rotateX(-90deg);
+    transform-origin: center top;
     -webkit-transform-origin: center top;
     -moz-transform-origin: center top;
     -ms-transform-origin: center top;
-    transform-origin: center top;
 }
 
 .col span {
