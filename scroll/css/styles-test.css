@@ -1,0 +1,190 @@
+* { box-sizing: border-box; }
+
+.scene {
+    width: 100%;
+    height: 20px;
+    display: flex;
+    border: 1px solid #CCC;
+}
+  
+.box {
+    width: 150px;
+    height: 20px;
+    position: fixed;
+    transform-style: preserve-3d;
+    transform: translateZ(-10px);
+    border: solid 1px #eeeeee;
+    color: #000000;
+    text-align: center;
+  }
+  
+.box__face {
+    position: fixed;
+    border: 1px solid black;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    line-height: 100%;
+    box-sizing: border-box;
+    transform-origin: 50% 50% -10px;
+    -webkit-transform-origin: 50% 50% -10px;
+    top: 0;
+    left: 0;
+}
+
+.box__face span {
+    display: block;
+}
+
+.box__face--front,
+.box__face--back {
+    width: 150px;
+    height: 20px;
+    transform-origin: center;
+    -webkit-transform-origin: center;
+}
+
+.box__face--right,
+.box__face--left {
+    width: 20px;
+    height: 20px;
+    left: 75px;
+    transform-origin: center;
+    -webkit-transform-origin: center;
+}
+  
+.box__face--top,
+.box__face--bottom {
+    width: 150px;
+    height: 20px;
+    top: 10px;
+    transform-origin: center;
+    -webkit-transform-origin: center;
+}
+
+.box__face--front  { background: hsla(  0, 100%, 50%, 0.7); }
+.box__face--right  { background: hsla( 60, 100%, 50%, 0.7); }
+.box__face--back   { background: hsla(120, 100%, 50%, 0.7); }
+.box__face--left   { background: hsla(180, 100%, 50%, 0.7); }
+.box__face--top    { background: hsla(240, 100%, 50%, 0.7); }
+.box__face--bottom { background: hsla(300, 100%, 50%, 0.7); }
+
+.box__face--front  { transform: rotateY(  0deg) translateZ( 10px); }
+.box__face--back   { transform: rotateY(180deg) translateZ( 10px); }
+
+.box__face--right  { transform: rotateY( 90deg) translateZ(75px); }
+.box__face--left   { transform: rotateY(-90deg) translateZ(75px); }
+
+.box__face--top    { transform: rotateX( 90deg) translateZ(10px); }
+.box__face--bottom { transform: rotateX(-90deg) translateZ(10px); }
+
+.box.show-front  { transform: translateZ( -10px) rotateY(   0deg); }
+.box.show-back   { transform: translateZ( -10px) rotateY(-180deg); }
+.box.show-right  { transform: translateZ(-75px) rotateY( -90deg); }
+.box.show-left   { transform: translateZ(-75px) rotateY(  90deg); }
+.box.show-top    { transform: translateZ(-10px) rotateX( -90deg); }
+.box.show-bottom { transform: translateZ(-10px) rotateX(  90deg); }
+
+html, body{
+    height:100%;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.skrollr-container-36{
+	width: 100%;
+	height:100%;
+    overflow:hidden;
+    position: fixed;
+    float: left;
+}
+
+#perspective {
+    -webkit-perspective: 800px;
+    -moz-perspective: 800px;
+    -ms-perspective: 800px;
+    perspective: 800px;
+}
+
+#one {
+    width: 50%;
+    height: 50%;
+    position: fixed;
+    float: left;
+}
+
+.row {
+    width: 100%;
+    height: 8%;
+    display: flex;
+}
+
+.col {
+    width: 12.5%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#box-1-a {
+    margin: 0 auto;
+    padding: 10px 0;
+    background-color: #d73f22;
+    color: #fff;
+    position: fixed;
+    -webkit-transform: rotateX(-270deg);
+    transform: rotateX(-270deg);
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+#box-1-b {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#box-1-b span {
+    display: block;
+    padding: 10px 0;
+    border: 1px #d73f22 solid;
+    background-color: #ffffff;
+    color: #d73f22;
+}
+
+#box-1-c {
+    position: fixed;
+    top: 0;
+    left: 0;
+    -webkit-transform: rotateX(-90deg);
+    transform: rotateX(-90deg);
+}
+
+#box-1-c span {
+    display: block;
+    padding: 10px 0;
+    border: 1px #d73f22 solid;
+    background-color: #ffffff;
+    color: #d73f22;
+}
+
+#box-1-d {
+    position: fixed;
+    top: 0;
+    left: 0;
+    -webkit-transform-origin: center top;
+    transform-origin: center top;
+    -webkit-transform: rotateX(-90deg);
+    transform: rotateX(-90deg);
+}
+
+#box-1-d span {
+    display: block;
+    padding: 10px 0;
+    border: 1px #d73f22 solid;
+    background-color: #ffffff;
+    color: #d73f22;
+    -webkit-transform: rotateX(-180deg);
+    transform: rotateX(-180deg);
+}
