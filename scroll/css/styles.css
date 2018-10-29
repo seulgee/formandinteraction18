@@ -3,14 +3,15 @@ html, body{
     height:100%;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
     font-size: 1.5em;
+    background-attachment:fixed;
 }
 
 .skrollr-container-36{
     padding-top: 10px;
 	width: 100%;
 	height:100%;
-    overflow:hidden;
     position: fixed;
     display: inline-block;
     vertical-align: top;
@@ -105,7 +106,7 @@ html, body{
     -ms-transform-origin: center top;
 }
 
-.col span {
+#box-1-a span {
     background-color: rgb(116, 235, 213);
     color: rgb(64, 180, 255); 
     width: 100%;
@@ -114,7 +115,7 @@ html, body{
     opacity: 1;
 }
 
-.sub span {
+#box-1-b span {
     padding: 5px 0 5px 0;
     line-height: 100%;
     display: block;
@@ -122,4 +123,66 @@ html, body{
     color: rgb(116, 235, 213);
     transform: rotateX(180deg);
     opacity: .7;
+}
+
+#box-1-a .red {
+    background-color: rgb(255, 106, 136);
+    color: rgb(255, 222, 233);
+}
+
+/*//TEST/*/
+
+.thing {
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    position: fixed;
+    height: 880px;
+
+    transform: rotateY(-180deg);
+    
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    
+    transform-origin: center center;
+    -webkit-transform-origin: center center;
+    -moz-transform-origin: center center;
+    -ms-transform-origin: center center;
+}
+
+.big {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transform: rotateY(-180deg);
+    transform-origin: center top;
+    -webkit-transform-origin: center top;
+    -moz-transform-origin: center top;
+    -ms-transform-origin: center top;
+}
+
+.inside-a {
+    width: 100%;
+    display: block;
+    opacity: 1;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+}
+
+.inside-b {
+    line-height: 100%;
+    display: block;
+    
+    background-color: rgb(255, 255, 255);
+    opacity: 1;
 }
